@@ -232,6 +232,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 }
 
+const newFeature = function () {
+  console.log('WELCOME TO THE APPLICATION');
+}
+
 const init = function () {
   // Onload render the recipe
   recipeView.addHandlerRender(controlRecipes)
@@ -250,6 +254,8 @@ const init = function () {
   bookmarksView.addHandlerBookmarks(controlBookmarks)
 
   addRecipeView.addHandlerUpload(controlAddRecipe)
+
+  newFeature();
 }
 
 init()

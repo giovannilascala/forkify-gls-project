@@ -18,7 +18,15 @@
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
   },
+  "source": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "targets": {
-    "main": false
+    "main": {
+      "optimize": true
+    },
+    "module": {
+      "optimize": true
+    }
   }
 }

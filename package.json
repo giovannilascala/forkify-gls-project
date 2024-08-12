@@ -2,6 +2,7 @@
   "name": "forkify-gls",
   "version": "1.0.0",
   "description": "Recipe application product by Giovanni La Scala",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -14,18 +15,7 @@
     "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0"
-  },
-  "source": "index.js",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "targets": {
-    "main": {
-      "optimize": true
-    },
-    "module": {
-      "optimize": true
-    }
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0"
   }
 }
